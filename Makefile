@@ -166,7 +166,7 @@ setupclassroom_test8:
 
 # for local ubuntu with zsh shell SHELL, need root for sudo 
 ubuntu_local_setenv:
-	sudo apt install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev \
+	sudo apt intall autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev \
               gawk build-essential bison flex texinfo gperf libtool patchutils bc \
               zlib1g-dev libexpat-dev pkg-config  libglib2.0-dev libpixman-1-dev git tmux python3 ninja-build zsh -y
 	cd ${HOME} && wget https://download.qemu.org/qemu-7.0.0.tar.xz
